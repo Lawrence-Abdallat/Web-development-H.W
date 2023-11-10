@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .burger-menu-icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .profile-info h2 {
+    margin-left: 10px;
+  }
+  
+  .profile-info ul {
+    margin-top: 10px;
+  }
+  
+  .delivery-address,
+  .billing-address,
+  .orders,
+  .products {
+    margin-bottom: 20px;
+  }
+  
+  .delivery-address h3,
+  .billing-address h3,
+  .orders h3,
+  .products h3 {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
